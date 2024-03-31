@@ -1,0 +1,393 @@
+.main
+{
+    height:50px;
+    width: 2000px;
+    background-color:white ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+.main1
+{
+    height:800px;
+    width: 2000px;
+    padding-top: 10px;
+    background-color: #0bceaf;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+}
+.nav
+{
+    display: flex; 
+  
+}
+.navlink
+{
+    text-decoration: none;
+   font-size: 25px;
+   color: black;
+   padding-left: 15px;
+   text-align: center;
+   font-weight: bold;
+
+}
+.navlink:hover
+{
+    color: aqua;
+}
+.navstart
+{
+padding-right: 600px;
+}
+.bhire
+{
+    height: 50px;
+    width: 130px;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:30px;
+    border: 2px solid aqua;
+    color: aqua;
+    margin-left: 200px;
+
+}
+.bhire:hover
+{
+    background-color: aqua;
+   color: white;
+}
+.box
+{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+  background-image:url("data:image/jpeg;base64,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");
+  background-size: cover;
+    margin-top:250px ;
+    margin-left: 600px;
+    position: absolute;
+    
+    
+}
+.data
+{
+
+font-weight:bold;
+position: absolute;
+margin-top:290px ;
+margin-left: 1000px;
+color: #fa0808;
+
+}
+.data:hover
+{
+    color: black;
+}
+.btndown{
+    height: 50px;
+    width: 180px;
+    color: #fa0808;
+    background-color:#0bceaf;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:30px;
+    border: 2px solid white;
+    }
+.btndown:hover
+{
+    background-color: white;
+    color: black;
+   
+}
+.cirplay
+{
+   height:70px;
+   width: 70px;
+   border-radius: 50%;
+   background-color:white;
+   margin-left:20px;
+   margin-top: -5px;
+   
+
+}
+.ciricon
+{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+ 
+.part1
+{
+    height:500px;
+    width: 1300px;
+    margin:100px 300px 200px 300px;
+    background-image: linear-gradient(red,green,blue,yellow);
+    /* background-color:white ; */
+    border: 2px solid black;
+    display: flex;
+
+}
+
+.part11
+{
+    height:460px;
+    width:620px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color:white;
+    
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 100PX;
+   font-size: 35PX;
+   font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: underline;
+   color: #0bceaf;
+  }
+  .center:hover
+  {
+    color:black;
+  }
+  img{
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    height:420px;
+    width:530px;
+  }
+  img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .hthree
+  {
+    font-weight: bolder;
+   font-size: 20px;
+   color: black;
+  }
+  .gray
+  {
+    color: grey;
+  }
+  .bhire1
+{
+    height: 50px;
+    width: 130px;
+    background-color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:30px;
+    border: 2px solid aqua;
+    color: aqua;
+     margin-left:10px;
+
+}
+.bhire1:hover
+{
+    background-color: aqua;
+   color: white;
+}
+
+.typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  /* //skill */
+  .progress-container {
+    width: 90%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 20px;
+    
+    border-radius: 5px;
+}
+/* service */
+.container
+{
+height: 500px;
+width: 1300px;
+border: 4px solid black;
+margin: auto;
+display: flex;
+background-image: linear-gradient(red,green,blue,yellow);
+}
+.card
+{
+  height: 400px;
+  width: 300px;
+  border: 3px solid black;
+  background-color:white;
+  margin: auto;
+}
+.card:hover
+{
+  background-color:#d3eaf2;
+  margin-top:-5px ;
+}
+.circle{
+  background-color: #0bceaf;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin:20px 100px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+}
+.iconc
+
+  {font-size: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+   color: white;
+
+}
+.iconc:hover
+{
+  color: black;
+}
+.one{
+    
+  width:180px;
+  background-color:gray;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.baa
+{
+  height: 40PX;
+  width: 130PX;
+  background-color: #0bceaf;
+border-radius: 20px;
+color: white;
+border: 2px solid gray;
+margin-left: 70px;
+}
+.para{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  
+  
+  
+}
+.card1
+{
+  height: 470px;
+  width: 550px;
+  border: 3px solid black;
+  background-color:white;
+ margin:auto;
+ padding: 5px;
+ 
+}
+.box2
+{
+  height:490px ;
+  width:1250px;
+  background-color: white;
+ margin: auto;
+ display: flex;
+}
+#pa
+{
+  margin-left: 210px;
+  margin-top: -110px;
+  font-weight: bold;
+  font-size:20px ;
+}
+
+#icon
+{
+  font-size:40px ;
+  margin-top:20px ;
+  margin-left:30px;
+  color: white;
+  
+}
+#icon:hover
+{
+  color:black;
+}
+input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid black;
+  margin-left: 80px;
+  font-size:20px ;
+
+}
+label{
+  font-size:25px ;
+ margin-left: 80px;
+}
+#label1{
+  font-size: 35px;
+  font-weight: bold;
+ padding-top: 60px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.button1{
+  height: 50px;
+  width: 140px;
+  background-color: darkcyan;
+  color: white;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.demo{
+  font-size: 20px;
+  text-align: right;
+  font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+   
+
+
+
+  
